@@ -1,0 +1,273 @@
+body {
+    background-color: #F6F3F1;
+    font-family: 'Poppins', sans-serif;
+    color:#313131;
+}
+// navbar 
+.navbar-brand {
+    img {
+        max-height: 45px;
+    }
+}
+
+.navbar-light {
+    .nav-item {
+        .nav-link {
+            color: #313131;
+            
+            &.active {
+                font-weight: bold;
+                
+                color: #313131 !important ;
+            }
+        }
+    }
+}
+
+
+// header 
+
+.header-rentangle {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    
+}
+
+.header-rentangle {  
+      
+    img { 
+        padding-top: 4rem;
+        max-width: 600px;
+        
+    }
+}
+
+header {
+    h1 {
+        padding-top: 4rem;
+        font-weight: bold;
+        font-size: 38px;
+        
+    }
+    h2 {
+        color: #262626;
+        font-size: 17px;
+        margin-top:-5px;
+        margin-bottom: 30px;
+        
+    }
+    p {
+        font-size: 18px;
+        color: #565656;
+        margin-bottom: 40px;
+    }
+    .btn-about-me {
+        font-size: 16px;
+        background-color:#AB896D;
+        color: #fff;
+        border-radius: 11px;
+
+        &:hover {
+            background-color:#C29B7C;
+        color: #fff;
+        }
+    }
+}
+.main-content {
+    .services {
+        img {
+            max-height: 500px;
+            margin-left: -50px;
+        }
+    }
+}
+
+// content
+
+.main-content {
+    .services {
+        background-color: #F9F9F9;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        
+            h2 {
+                font-size: 32px;
+                font-weight: bolder;
+            }
+            p {
+                margin-top: -10px;
+                font-size: 18px;
+                color: #565656;
+            }
+    }
+}
+
+.services-content {
+    min-height: 320px;
+    background-color: #fff;
+    padding: 40px 20px 4px ;
+    border-radius: 19px;
+    margin-top: 30px;
+    
+
+    img {
+        max-height: 90px;
+        margin-bottom: 40px;
+    }
+    .headline-edit {
+        margin-top: px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+        color: #565656;
+    }
+}
+
+// section-2-link-portfolio 
+.two-link-portfolio {
+    .headline-3 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        h3 {
+            font-weight: bold;
+            font-size: 32px;
+        }
+        p {
+        font-size: 18px;
+        color: #565656;
+
+        }
+        
+    }
+    .btn-go-to-dribble {
+        font-size: 16px;
+        background-color:#AB896D;
+        color: #fff;
+        border-radius: 11px;
+        
+        &:hover {
+            background-color:#C29B7C;
+            color: #fff;
+        }
+    }
+
+
+    .card-portfolio {
+        max-height: 500px ;
+        background-color: #fff;
+        border-radius: 19px;
+        padding: 30px 10px;
+        margin-bottom: 50px;
+
+        h4 {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight :bold ;
+        }
+
+        img {
+        max-height: 100px;
+        margin-top: 80px;
+        margin-bottom: -80px;  
+        }
+
+        .btn-go-to-dribble {
+            margin-top: 120px;
+        }
+    }
+}
+// footer 
+.section-footer {
+    background-color: #F9F9F9;
+    li {
+        margin-top: 0;
+        a {
+            
+            color: #313131;
+        
+        }
+    }
+}
+.btn-about-me {
+    background-color: #AB896D;
+    color: #fff;
+    border-radius: 9px;
+
+    &:hover {
+        background-color:#C29B7C;
+        color: #fff;
+    }
+    
+}
+.made-with {
+    p {
+        color: #565656;
+    }
+}
+.made-with {
+        a {
+            color: #565656;
+    }
+}
+// projects
+.btn-back-home {
+        font-size: 16px;
+        background-color:#AB896D;
+        color: #fff;
+        border-radius: 11px;
+        text: center;
+
+        &:hover {
+            background-color:#C29B7C;
+        color: #fff;
+        }
+}
+// about 
+.about-profiles {
+    margin-top: 50px;
+    img {
+        max-height: 450px;
+        margin: 70px 20px;
+
+    }
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        color: #AB896D;
+        
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+
+//contact
+.contact {
+    margin-bottom: 120px;
+    #h2-heading {
+        font-size: 32px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .btn-contact {
+        background-color: #AB896D;
+        color: #fff;
+        border-radius: 9px;
+
+        &:hover {
+            background-color:#C29B7C;
+            color: #fff;
+        }
+    }
+}
