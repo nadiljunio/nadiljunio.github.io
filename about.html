@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About--Nadil Junio</title>
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+   
+    <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+   
+    <!--AOS  -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <!-- css -->
     <link rel="stylesheet" 
     href="frontend/styles/main.css">
     
@@ -19,7 +24,7 @@
   <!-- navbar --> 
   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container">
-        <a href="#" class="navbar-brand">
+        <a href="#" class="navbar-brand" >
           <img src="frontend/images/Nadil Junio@2x.png" alt="logo nadil">
         </a>
         <button class="navbar-toggler navbar-toggler-right" 
@@ -51,10 +56,10 @@
   <section class="about-profiles">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 d-block text-center">
+        <div class="col-md-6 d-block text-center" data-aos="fade-right" data-aos-duration="1500">
           <img src="frontend/images/profil-juno.jpeg" alt="foto-profil"class="rounded-circle img-thumbnail">
         </div>
-        <div class="col-md-6 align-self-center">
+        <div class="col-md-6 align-self-center" data-aos="fade-up" data-aos-duration="2000">
           <h2>Hi Fellas,</h2>
           <p>I'm Nadil Junio, I passionate design and
            edit video.
@@ -124,6 +129,14 @@
 
   <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
   <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once:true,
+    });
+  </script>
  
 
 </body>

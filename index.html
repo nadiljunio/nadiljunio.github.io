@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nadil Junio | Digital Designer</title>
+    <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+  <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 
+  <!--AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- CSS -->
     <link rel="stylesheet" 
     href="frontend/styles/main.css">
     
@@ -53,8 +57,8 @@
   
     <header class="header-rentangle">
       <div class="container">
-        <div class="row align-items-center ">
-          <div class="col-md-6">
+        <div class="row align-items-center" >
+          <div class="col-md-6" data-aos="fade-right" data-aos-duration="1500">
             <h1 class="">Nadil Junio</h1>
             <h2>UI Designer & Editor Video</h2>
             <p>I can help you to make website, 
@@ -63,7 +67,7 @@
             <a href="about.html" class="btn btn-about-me px-4">About me ></a>
 
           </div>
-          <div class="col-md-6 d-none d-sm-block">
+          <div class="col-md-6 d-none d-sm-block" data-aos="fade-up" data-aos-duration="2000">
             <img src= "frontend/images/polaroid 3.png" alt="">
           </div>
           
@@ -76,18 +80,18 @@
       <div class="services">
         <div class="container">
           <div class="row">
-            <div class="col d-none d-sm-block">
+            <div class="col d-none d-sm-block" data-aos="fade-up" data-aos-duration="2000">
               <img src="frontend/images/Group 3@2x.png" alt="foto-services">
             </div>
             <div class="col">
-              <div class="text-center">
+              <div class="text-center" data-aos="fade-up" data-aos-duration="2000">
                 <h2>Services</h2>
                 <p>We are ready to serve</p>
               </div>
                  
                   <div class="row justify-content-center">
                     <div class="col-md-6">
-                        <div class="card-services-content text-center shadow">
+                        <div class="card-services-content text-center shadow" data-aos="fade-right" data-aos-duration="2000">
                           <img src="frontend/images/computer.png"class="rounded mx-auto d-block" alt="computer-icon" >
                             <h3 class="">Build Website</h3>
                             <p class=" ption">Make personal website Company profile </p>
@@ -95,7 +99,7 @@
                     </div>
   
                     <div class="col-md-6">   
-                        <div class="card-services-content text-center shadow ">
+                        <div class="card-services-content text-center shadow" data-aos="fade-left" data-aos-duration="2000">
                           <img src="frontend/images/play.png" 
                           class="rounded mx-auto d-block" alt="play-icon">
                             <h3 class="headline-edit">Edit Video</h3>
@@ -110,14 +114,14 @@
       <!-- portfolio  -->
       <section class="two-link-portfolio mb-5">
         <div class="container">
-          <div class="headline-3 text-center">
+          <div class="headline-3 text-center" data-aos="fade-up" data-aos-duration="2000">
             <h3>You can visit my portfolio</h3>
             <p>Take look my portfolio</p>
           </div>
 
           <div class="row justify-content-center">
             <div class="col-md-4">
-              <div class="card-portfolio text-center shadow">
+              <div class="card-portfolio text-center shadow" data-aos="fade-right" data-aos-duration="2000">
                 <div class="portfolio-content">
                   <h4 class="">youtube.com/nadiljunio</h4>
                   <img src="frontend/images/youtube-2017-icon-logo-D1FE045118-seeklogo.com.png" class="rounded mx-auto d-block" alt="logo-dribble">
@@ -129,7 +133,7 @@
 
 
             <div class="col-md-4">
-              <div class="card-portfolio text-center shadow">
+              <div class="card-portfolio text-center shadow"data-aos="fade-left" data-aos-duration="2000">
                 <div class="portfolio-content">
                   <h4 class="">dribbble.com/nadiljunio</h4>
                   <img src="frontend/images/dribbble-logo-143FF96D65-seeklogo.com.png" class="rounded mx-auto d-block" alt="logo-dribble">
@@ -152,7 +156,7 @@
             <div class="row">
               <div class="col-md-4 mt-3">
                 <h5>Let's talk your project</h5>
-                <p>Tell us what are you need?
+                <p>Tell me what are you need?
                 </p>
                 <a href="contact.html" class="btn btn-about-me px-4">Contact Me Today ></a>
               </div>
@@ -191,6 +195,15 @@
 
   <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
   <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once:true,
+    });
+  </script>
+
  
 
 </body>
