@@ -1,7 +1,7 @@
 body {
   background-color: #F6F3F1;
   font-family: 'Poppins', sans-serif;
-  color: #313131;
+  color: #242424;
 }
 
 .navbar-brand img {
@@ -35,14 +35,14 @@ header h1 {
 
 header h2 {
   color: #262626;
-  font-size: 17px;
+  font-size: 20px;
   margin-top: -5px;
   margin-bottom: 30px;
 }
 
 header p {
-  font-size: 18px;
-  color: #565656;
+  font-size: 17px;
+  color: #242424;
   margin-bottom: 40px;
 }
 
@@ -70,17 +70,17 @@ header .btn-about-me:hover {
 }
 
 .main-content .services h2 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bolder;
 }
 
 .main-content .services p {
   margin-top: -10px;
-  font-size: 18px;
-  color: #565656;
+  font-size: 17px;
+  color: #242424;
 }
 
-.services-content {
+.main-content .card-services-content {
   min-height: 320px;
   background-color: #fff;
   padding: 40px 20px 4px;
@@ -88,21 +88,22 @@ header .btn-about-me:hover {
   margin-top: 30px;
 }
 
-.services-content img {
+.main-content .card-services-content img {
   max-height: 90px;
   margin-bottom: 40px;
 }
 
-.services-content .headline-edit {
-  margin-top: px;
+.main-content .card-services-content .headline-edit {
+  margin-top: 53px;
 }
 
-.services-content h3 {
+.main-content .card-services-content h3 {
   font-size: 20px;
 }
 
-.services-content p {
-  font-size: 16px;
+.main-content .card-services-content p {
+  padding: 10px 20px;
+  font-size: 15px;
   color: #565656;
 }
 
@@ -117,8 +118,8 @@ header .btn-about-me:hover {
 }
 
 .two-link-portfolio .headline-3 p {
-  font-size: 18px;
-  color: #565656;
+  font-size: 17px;
+  color: #242424;
 }
 
 .two-link-portfolio .btn-go-to-dribble {
@@ -161,12 +162,9 @@ header .btn-about-me:hover {
   background-color: #F9F9F9;
 }
 
-.section-footer li {
-  margin-top: 0;
-}
-
 .section-footer li a {
-  color: #313131;
+  margin-left: 0;
+  color: #242424;
 }
 
 .btn-about-me {
@@ -180,12 +178,13 @@ header .btn-about-me:hover {
   color: #fff;
 }
 
-.made-with p {
-  color: #565656;
+.section-footer .made-with p {
+  font-size: 15px;
+  color: #242424;
 }
 
-.made-with a {
-  color: #565656;
+.section-footer .made-with a {
+  color: #242424;
 }
 
 .btn-back-home {
@@ -207,22 +206,28 @@ header .btn-about-me:hover {
 
 .about-profiles img {
   max-height: 450px;
-  margin: 70px 20px;
+  margin: 70px 0;
 }
 
 .about-profiles h2 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
   color: #AB896D;
   margin-bottom: 20px;
 }
 
 .about-profiles p {
-  font-size: 18px;
+  padding: 0 35px 0 0;
+  font-size: 17px;
 }
 
 .contact {
   margin-bottom: 120px;
+}
+
+.contact p {
+  font-size: 16px;
+  color: #242424;
 }
 
 .contact #h2-heading {
