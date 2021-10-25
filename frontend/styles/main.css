@@ -8,6 +8,15 @@ body {
   max-height: 45px;
 }
 
+.scrolling-active {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
+  height: 3.6rem;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
 .navbar-light .nav-item .nav-link {
   color: #313131;
 }
@@ -209,7 +218,7 @@ header .btn-about-me:hover {
   background-color: #AB896D;
   color: #fff;
   border-radius: 11px;
-  text: center;
+  text-align: center;
 }
 
 .btn-back-home:hover {
